@@ -3,7 +3,7 @@
 En este paso crearás un issue que describe la tarea de implementar un interpolador lineal.
 
 ## Pasos
- 
+
 1. Ve a la pestaña **Issues** en tu repositorio de GitHub.
 2. Haz clic en **New issue**.
 3. Título: `Implementar interpolador lineal`.
