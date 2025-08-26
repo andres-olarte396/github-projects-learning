@@ -1,6 +1,7 @@
 # Crear un repositorio de prueba en GitHub
 
 ## Introducción
+
 Este manual te guiará a través del proceso de creación de un repositorio de prueba en GitHub. 
 
 ## Pasos para crear un repositorio
@@ -24,4 +25,5 @@ Este manual te guiará a través del proceso de creación de un repositorio de p
    - (Aquí puedes incluir una captura de pantalla del formulario de creación del repositorio).
 
 ## Conclusión
+
 Ahora has creado un repositorio de prueba en GitHub. Puedes comenzar a agregar archivos y realizar cambios en él.

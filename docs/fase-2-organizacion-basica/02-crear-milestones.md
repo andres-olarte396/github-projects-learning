@@ -16,7 +16,7 @@ Los milestones permiten agrupar issues y pull requests bajo un mismo objetivo o 
 
 ### Ejemplo visual
 
-![Ejemplo de milestones en GitHub](https://docs.github.com/assets/images/help/issues/milestones-list.png)
+![Ejemplo de milestones en GitHub](../../assets/milestones-list.png)
 
 ---
 
