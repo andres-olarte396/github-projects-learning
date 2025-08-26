@@ -40,8 +40,8 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 - [x] Definir al menos 4 etiquetas (`bug`, `feature`, `documentation`, `high priority`). ([Guía](docs/fase-2-organizacion-basica/01-definir-etiquetas.md))  
 - [x] Crear al menos 2 milestones. ([Guía](docs/fase-2-organizacion-basica/02-crear-milestones.md))  
 - [x] Abrir 3 issues nuevos y asignarlos a milestones. ([Guía](docs/fase-2-organizacion-basica/03-abrir-issues-asignar-milestones.md))  
-- [ ] Aplicar etiquetas a esos issues. ([Guía](docs/fase-2-organizacion-basica/04-aplicar-etiquetas-issues.md))  
-- [ ] Revisar el progreso de milestones. ([Guía](docs/fase-2-organizacion-basica/05-revisar-progreso-milestones.md))  
+- [x] Aplicar etiquetas a esos issues. ([Guía](docs/fase-2-organizacion-basica/04-aplicar-etiquetas-issues.md))  
+- [x] Revisar el progreso de milestones. ([Guía](docs/fase-2-organizacion-basica/05-revisar-progreso-milestones.md))  
 
 ### Fase 3 – Gestión visual (Semana 2)
 
