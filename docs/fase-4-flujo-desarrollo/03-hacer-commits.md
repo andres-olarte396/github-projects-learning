@@ -3,7 +3,7 @@
 Los commits deben ser pequeños, descriptivos y referenciar el issue cuando sea posible.
 
 ## Pasos
- 
+
 1. Realiza cambios en los archivos de tu proyecto (por ejemplo, agrega `lerp` en un archivo de utilidades o ejemplo).
 2. Añade los cambios al staging:
 

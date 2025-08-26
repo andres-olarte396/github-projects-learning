@@ -30,6 +30,7 @@ Abrir un issue en GitHub es una forma efectiva de comunicar problemas, errores o
 Al intentar acceder a la página principal del sitio, se muestra un error 404. Esto ocurre al hacer clic en el enlace de inicio desde cualquier otra página del sitio.
 
 **Pasos para reproducir**:
+
 1. Ir a la página de contacto.
 2. Hacer clic en el enlace "Inicio".
 3. Observar el error 404.

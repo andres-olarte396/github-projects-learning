@@ -16,7 +16,7 @@ Las etiquetas permiten clasificar y priorizar issues y pull requests. En este ej
 
 ### Ejemplo visual
 
-![Ejemplo de etiquetas en GitHub](https://docs.github.com/assets/images/help/issues/issues-labels.png)
+![Ejemplo de etiquetas en GitHub](../../assets/issues-labels.png)
 
 ---
 
