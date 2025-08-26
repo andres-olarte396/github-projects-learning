@@ -33,7 +33,7 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 - [x] Abrir un issue simple. ([Guía](docs/fase-1-fundamentos/02-apertura-issue.md))  
 - [x] Hacer un cambio pequeño en el código. ([Guía](docs/fase-1-fundamentos/03-modificacion-codigo.md))  
 - [x] Crear un pull request (PR). ([Guía](docs/fase-1-fundamentos/04-creacion-pr.md))  
-- [x] Vincular el PR al issue usando `Fixes #<número>`. ([Guía](docs/fase-1-fundamentos/05-vinculacion-pr-issue.md))  
+- [x] Vincular el PR al issue usando. `Fixes #<número>`. ([Guía](docs/fase-1-fundamentos/05-vinculacion-pr-issue.md))  
 
 ### Fase 2 – Organización básica (Día 4 - Día 6)
 
