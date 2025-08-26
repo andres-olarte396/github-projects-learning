@@ -3,7 +3,7 @@
 Al cerrar el PR y el issue, refleja el estado final en el tablero Kanban.
 
 ## Pasos
- 
+
 1. Abre el Project (Kanban) correspondiente.
 2. Localiza la tarjeta del issue en `In Progress`.
 3. Arrastra la tarjeta a la columna `Done`.

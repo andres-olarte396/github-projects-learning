@@ -3,7 +3,7 @@
 Crear un PR permite revisar cambios antes de fusionarlos a `main`.
 
 ## Pasos
- 
+
 1. En GitHub, ve a la pestaña **Pull requests** y haz clic en **New pull request**.
 2. Elige como base `main` y como compare `feature/interpolador-lineal`.
 3. Título sugerido: `feat: interpolador lineal (lerp)`.

@@ -30,10 +30,10 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 ### Fase 1 – Fundamentos (Día 1 - Día 3)
 
 - [x] Crear un repositorio de prueba en GitHub. ([Guía](docs/fase-1-fundamentos/01-creacion-repositorio.md))  
-- [ ] Abrir un issue simple. ([Guía](docs/fase-1-fundamentos/02-apertura-issue.md))  
-- [ ] Hacer un cambio pequeño en el código. ([Guía](docs/fase-1-fundamentos/03-modificacion-codigo.md))  
-- [ ] Crear un pull request (PR). ([Guía](docs/fase-1-fundamentos/04-creacion-pr.md))  
-- [ ] Vincular el PR al issue usando `Fixes #<número>`. ([Guía](docs/fase-1-fundamentos/05-vinculacion-pr-issue.md))  
+- [x] Abrir un issue simple. ([Guía](docs/fase-1-fundamentos/02-apertura-issue.md))  
+- [x] Hacer un cambio pequeño en el código. ([Guía](docs/fase-1-fundamentos/03-modificacion-codigo.md))  
+- [x] Crear un pull request (PR). ([Guía](docs/fase-1-fundamentos/04-creacion-pr.md))  
+- [x] Vincular el PR al issue usando `Fixes #<número>`. ([Guía](docs/fase-1-fundamentos/05-vinculacion-pr-issue.md))  
 
 ### Fase 2 – Organización básica (Día 4 - Día 6)
 

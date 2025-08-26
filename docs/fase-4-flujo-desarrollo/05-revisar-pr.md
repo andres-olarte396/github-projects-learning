@@ -3,7 +3,7 @@
 La revisión asegura calidad y mantiene estándares del proyecto.
 
 ## Checklist de revisión
- 
+
 - Verificar que el PR compila/pasa tests.
 - Confirmar que el alcance corresponde al issue.
 - Revisar nombres de funciones, claridad y comentarios.
@@ -11,7 +11,7 @@ La revisión asegura calidad y mantiene estándares del proyecto.
 - Confirmar que el PR enlaza al issue con `Fixes #<n>`.
 
 ## Pasos
- 
+
 1. Abre el PR y revisa los archivos cambiados (tab **Files changed**).
 2. Comenta líneas específicas si es necesario.
 3. Si está todo correcto, haz clic en **Approve**.
