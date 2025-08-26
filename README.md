@@ -28,7 +28,7 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 ## ✅ Checklist de Aprendizaje
 
 ### Fase 1 – Fundamentos (Día 1 - Día 3)
-- [ ] Crear un repositorio de prueba en GitHub.  
+- [x] Crear un repositorio de prueba en GitHub.  
 - [ ] Abrir un issue simple.  
 - [ ] Hacer un cambio pequeño en el código.  
 - [ ] Crear un pull request (PR).  
