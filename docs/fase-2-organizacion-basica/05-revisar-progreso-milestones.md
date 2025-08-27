@@ -11,7 +11,7 @@ GitHub permite visualizar el avance de cada milestone, mostrando cuántos issues
 
 ### Ejemplo visual
 
-![Progreso de un milestone](https://docs.github.com/assets/images/help/issues/milestone-progress-bar.png)
+![Progreso de un milestone](../../assets/milestone/milestone-progress-bar.png)
 
 ---
 
