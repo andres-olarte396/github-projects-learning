@@ -72,4 +72,4 @@ $issueUrl = "https://github.com/$owner/$repo/issues/123"
 gh project item-add --owner $owner --project-number $projNum --url $issueUrl
 ```
 
-> Nota: Para configurar vistas, reglas y campos avanzados de Projects v2, usa la UI de GitHub. El soporte CLI para editar vistas/campos es limitado y puede requerir `gh api` (GraphQL) en escenarios avanzados.
+> Nota: Para configurar vistas, reglas y campos avanzados de Projects v2, usa la UI de GitHu- [ ] B. El soporte CLI para editar vistas/campos es limitado y puede requerir `gh api` (GraphQL) en escenarios avanzados.

@@ -21,7 +21,7 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 - Aprender a organizar tareas con labels y tableros Kanban.  
 - Planificar un proyecto por fases usando milestones.  
 - Automatizar tareas básicas con GitHub Actions.  
-- Simular un ciclo ágil de sprints dentro de GitHub.  
+- Simular un ciclo ágil de sprints dentro de GitHu- [ ] B.  
 
 ---
 
@@ -29,7 +29,7 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 
 ### Fase 1 – Fundamentos (Día 1 - Día 3)
 
-- [x] Crear un repositorio de prueba en GitHub. ([Guía](docs/fase-1-fundamentos/01-creacion-repositorio.md))  
+- [x] Crear un repositorio de prueba en GitHu- [ ] B. ([Guía](docs/fase-1-fundamentos/01-creacion-repositorio.md))  
 - [x] Abrir un issue simple. ([Guía](docs/fase-1-fundamentos/02-apertura-issue.md))  
 - [x] Hacer un cambio pequeño en el código. ([Guía](docs/fase-1-fundamentos/03-modificacion-codigo.md))  
 - [x] Crear un pull request (PR). ([Guía](docs/fase-1-fundamentos/04-creacion-pr.md))  
@@ -70,7 +70,7 @@ El objetivo es dominar el flujo de trabajo completo que GitHub ofrece para organ
 
 ### Fase 6 – Consolidación (Mes 2)
 
-- [ ] Abrir una Discussion para una nueva funcionalidad. ([Guía](docs/fase-6-consolidacion/01-abrir-discussion.md))  
+- [ ] Abrir una Discussion para una nueva funcionalida- [ ] D. ([Guía](docs/fase-6-consolidacion/01-abrir-discussion.md))  
 - [ ] Convertir esa Discussion en un issue. ([Guía](docs/fase-6-consolidacion/02-convertir-discussion-en-issue.md))  
 - [ ] Planificar un sprint de 2 semanas con milestones + Project. ([Guía](docs/fase-6-consolidacion/03-planificar-sprint-2-semanas.md))  
 - [ ] Ejecutar el sprint con issues, PRs y milestones. ([Guía](docs/fase-6-consolidacion/04-ejecutar-sprint.md))  

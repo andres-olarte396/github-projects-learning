@@ -12,7 +12,7 @@ Abrir un issue en GitHub es una forma efectiva de comunicar problemas, errores o
 
 4. **Escribir un título claro**: En el campo de título, escribe un resumen breve y claro del problema o solicitud.
 
-5. **Describir el problema o solicitud**: En el campo de descripción, proporciona detalles sobre el problema o la solicitud. Incluye información relevante como:
+5. **Describir el problema o solicitud**: En el campo de descripción, proporciona detalles sobre el problema o la solicitu- [ ] D. Incluye información relevante como:
    - Pasos para reproducir el problema.
    - Comportamiento esperado.
    - Comportamiento actual.
