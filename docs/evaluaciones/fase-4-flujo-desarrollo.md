@@ -2,128 +2,148 @@
 
 ## Selección múltiple
 
-1. Ventaja de rama `feature/<id>-slug`:
-- [ ] A. Oculta cambios  
-- [ ] B. Identificable y trazable  
-- [ ] C. Bloquea merges  
-- [ ] D. Reemplaza etiquetas  
+### Pregunta 1: Ventaja de rama `feature/<id>-slug`:
 
-2. “Draft PR” sirve para:
-- [ ] A. Fusionar sin revisión  
-- [ ] B. Feedback temprano y CI inicial  
-- [ ] C. Comprimir historia  
-- [ ] D. Forzar rebase automático  
+- a) Oculta cambios
+- b) Identificable y trazable (Correcta)
+- c) Bloquea merges
+- d) Reemplaza etiquetas
 
-3. Rebase interactivo objetivo:
-- [ ] A. Duplicar commits  
-- [ ] B. Limpiar y organizar historia local antes de publicar  
-- [ ] C. Eliminar tags  
-- [ ] D. Evitar pruebas  
+### Pregunta 2: “Draft PR” sirve para:
 
-4. `fix(scope): corrige validación` es:
-- [ ] A. Un commit siguiendo Conventional Commits  
-- [ ] B. Un tag Git  
-- [ ] C. Un título de issue  
-- [ ] D. Un mensaje de release  
+- a) Fusionar sin revisión
+- b) Feedback temprano y CI inicial (Correcta)
+- c) Comprimir historia
+- d) Forzar rebase automático
 
-5. `Closes #34` en PR:
-- [ ] A. Solo referencia  
-- [ ] B. Cierra issue al fusionar  
-- [ ] C. Cambia base del PR  
-- [ ] D. Reabre el issue  
+### Pregunta 3: Rebase interactivo objetivo:
 
-6. Estrategia de merges que conserva historia:
-- [ ] A. Squash  
-- [ ] B. Rebase + merge (fast-forward si posible)  
-- [ ] C. Cherry-pick  
-- [ ] D. Force push a main  
+- a) Duplicar commits
+- b) Limpiar y organizar historia local antes de publicar (Correcta)
+- c) Eliminar tags
+- d) Evitar pruebas
 
-7. Commit firmado (GPG) aporta:
-- [ ] A. Rendimiento  
-- [ ] B. Autenticidad  
-- [ ] C. Más conflictos  
-- [ ] D. Pierde autoría  
+### Pregunta 4: `fix(scope): corrige validación` es:
 
-8. Evitar “big bang PR”:
-- [ ] A. Genera deuda de revisión  
-- [ ] B. Mejora confianza  
-- [ ] C. Acelera merges  
-- [ ] D. Reduce riesgos  
+- a) Un commit siguiendo Conventional Commits (Correcta)
+- b) Un tag Git
+- c) Un título de issue
+- d) Un mensaje de release
 
-9. PR listo para revisión:
-- [ ] A. Falta descripción  
-- [ ] B. CI verde y criterios claros  
-- [ ] C. Sin relación a issue  
-- [ ] D. Con diffs irrelevantes  
+### Pregunta 5: `Closes #34` en PR:
 
-10. Test mínimo en PR nuevo:
-- [ ] A. Ninguno  
-- [ ] B. Cubrir ruta crítica del cambio  
-- [ ] C. Reescribir todos los tests  
-- [ ] D. Eliminarlos  
+- a) Solo referencia
+- b) Cierra issue al fusionar (Correcta)
+- c) Cambia base del PR
+- d) Reabre el issue
 
-11. Referencia parcial sin cierre:
-- [ ] A. `Refs #12`  
-- [ ] B. `Closes #12`  
-- [ ] C. `Fixes #12`  
-- [ ] D. `Resolve #12`  
+### Pregunta 6: Estrategia de merges que conserva historia:
 
-12. Hook pre-commit:
-- [ ] A. Ejecuta validaciones antes de crear commit  
-- [ ] B. Forza merges  
-- [ ] C. Cambia diff remoto  
-- [ ] D. Reescribe tags  
+- a) Squash
+- b) Rebase + merge (fast-forward si posible) (Correcta)
+- c) Cherry-pick
+- d) Force push a main
 
-13. Parametrizar CI ayuda a:
-- [ ] A. Evitar cache  
-- [ ] B. Minimizar ejecuciones redundantes  
-- [ ] C. Romper pipelines  
-- [ ] D. Saltar revisión  
+### Pregunta 7: Commit firmado (GPG) aporta:
 
-14. Commit que agrupa refactor y fix crítico:
-- [ ] A. Aumenta claridad  
-- [ ] B. Mezcla propósitos y dificulta revertir  
-- [ ] C. Mejora cherry-pick  
-- [ ] D. Optimiza tag  
+- a) Rendimiento
+- b) Autenticidad (Correcta)
+- c) Más conflictos
+- d) Pierde autoría
 
-15. “Amend” correcto:
-- [ ] A. Editar último commit local antes de push  
-- [ ] B. Reescribir historia remota sin pull  
-- [ ] C. Borrar tags  
-- [ ] D. Fusionar ramas  
+### Pregunta 8: Evitar “big bang PR”:
 
-16. Pull con rebase:
-- [ ] A. `git pull --rebase` reduce merges triviales  
-- [ ] B. Elimina commits locales  
-- [ ] C. Bloquea pushes  
-- [ ] D. Cambia tags  
+- a) Genera deuda de revisión
+- b) Mejora confianza
+- c) Acelera merges
+- d) Reduce riesgos (Correcta)
 
-17. Plantilla PR coherente:
-- [ ] A. Requiere pasos de prueba y checklist  
-- [ ] B. Debe estar vacía  
-- [ ] C. Solo título  
-- [ ] D. Ignora impacto  
+### Pregunta 9: PR listo para revisión:
 
-18. Sincronizar rama local:
-- [ ] A. `git fetch origin main && git rebase origin/main`  
-- [ ] B. `git rebase --delete`  
-- [ ] C. `git force main`  
-- [ ] D. `git sync remote`  
+- a) Falta descripción
+- b) CI verde y criterios claros (Correcta)
+- c) Sin relación a issue
+- d) Con diffs irrelevantes
 
-19. Revisiones rápidas efectivas:
-- [ ] A. Pequeños lotes y claridad de cambios  
-- [ ] B. Combinar features dispares  
-- [ ] C. Saltar descripciones  
-- [ ] D. Ignorar comentarios  
+### Pregunta 10: Test mínimo en PR nuevo:
 
-20. Estrategia para reducir conflictos:
-- [ ] A. PRs cortos, merges frecuentes  
-- [ ] B. Muchos commits masivos tardíos  
-- [ ] C. Forzar pushes a main  
-- [ ] D. Postergar integración  
+- a) Ninguno
+- b) Cubrir ruta crítica del cambio (Correcta)
+- c) Reescribir todos los tests
+- d) Eliminarlos
+
+### Pregunta 11: Referencia parcial sin cierre:
+
+- a) `Refs #12` (Correcta)
+- b) `Closes #12`
+- c) `Fixes #12`
+- d) `Resolve #12`
+
+### Pregunta 12: Hook pre-commit:
+
+- a) Ejecuta validaciones antes de crear commit (Correcta)
+- b) Forza merges
+- c) Cambia diff remoto
+- d) Reescribe tags
+
+### Pregunta 13: Parametrizar CI ayuda a:
+
+- a) Evitar cache
+- b) Minimizar ejecuciones redundantes (Correcta)
+- c) Romper pipelines
+- d) Saltar revisión
+
+### Pregunta 14: Commit que agrupa refactor y fix crítico:
+
+- a) Aumenta claridad
+- b) Mezcla propósitos y dificulta revertir (Correcta)
+- c) Mejora cherry-pick
+- d) Optimiza tag
+
+### Pregunta 15: “Amend” correcto:
+
+- a) Editar último commit local antes de push (Correcta)
+- b) Reescribir historia remota sin pull
+- c) Borrar tags
+- d) Fusionar ramas
+
+### Pregunta 16: Pull con rebase:
+
+- a) `git pull --rebase` reduce merges triviales (Correcta)
+- b) Elimina commits locales
+- c) Bloquea pushes
+- d) Cambia tags
+
+### Pregunta 17: Plantilla PR coherente:
+
+- a) Requiere pasos de prueba y checklist (Correcta)
+- b) Debe estar vacía
+- c) Solo título
+- d) Ignora impacto
+
+### Pregunta 18: Sincronizar rama local:
+
+- a) `git fetch origin main && git rebase origin/main` (Correcta)
+- b) `git rebase --delete`
+- c) `git force main`
+- d) `git sync remote`
+
+### Pregunta 19: Revisiones rápidas efectivas:
+
+- a) Pequeños lotes y claridad de cambios (Correcta)
+- b) Combinar features dispares
+- c) Saltar descripciones
+- d) Ignorar comentarios
+
+### Pregunta 20: Estrategia para reducir conflictos:
+
+- a) PRs cortos, merges frecuentes (Correcta)
+- b) Muchos commits masivos tardíos
+- c) Forzar pushes a main
+- d) Postergar integración
 
 ## Práctica
 
-21. Escribe un commit message para añadir validación de parámetros invalidando uno obsoleto (breaking).  
-22. Explica cuándo usar squash vs merge commit.  
-23. Proporciona 4 pasos para crear un PR de una rama local y enlazar issue #90.  
+1. Escribe un commit message para añadir validación de parámetros invalidando uno obsoleto (breaking).
+2. Explica cuándo usar squash vs merge commit.
+3. Proporciona 4 pasos para crear un PR de una rama local y enlazar issue #90.

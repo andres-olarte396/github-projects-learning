@@ -1,7 +1,9 @@
 # Evaluación Fase 1 – Fundamentos (Issues, Commits, PR básicos)
 
 Instrucciones
-Marca una opción (A–D) por pregunt- [ ] A. Las preguntas 21–23 son prácticas.
+Marca una opción (A–D) por pregunt
+
+- A. Las preguntas 21–23 son prácticas.
 
 ## Objetivos evaluados
 
@@ -12,131 +14,151 @@ Marca una opción (A–D) por pregunt- [ ] A. Las preguntas 21–23 son práctic
 
 ## Parte I – Selección múltiple
 
-1. ¿Cuál es el beneficio principal de vincular un PR con `Closes #12`?
-- [ ] A. Acelera el pipeline de CI  
-- [ ] B. Cierra el issue al fusionar el PR  
-- [ ] C. Evita conflictos de merge  
-- [ ] D. Cambia la base del PR  
+### Pregunta 1: ¿Cuál es el beneficio principal de vincular un PR con `Closes #12`?
 
-2. Un buen título de issue debe:
-- [ ] A. Ser genérico para reutilizarse  
-- [ ] B. Incluir múltiples problemas para ahorrar tiempo  
-- [ ] C. Enfocarse en un único problema claro  
-- [ ] D. Omitir el contexto para ser breve  
+- a) Acelera el pipeline de CI
+- b) Cierra el issue al fusionar el PR (Correcta)
+- c) Evita conflictos de merge
+- d) Cambia la base del PR
 
-3. ¿Cuál **comando** crea un repositorio local y conecta el remoto?
-- [ ] A. `git init && git remote add origin <url>`  
-- [ ] B. `git start <url>`  
-- [ ] C. `git repo create <url>`  
-- [ ] D. `git connect origin <url>`  
+### Pregunta 2: Un buen título de issue debe:
 
-4. Un commit “atómico” significa:
-- [ ] A. Muy grande con muchos cambios  
-- [ ] B. Incluye código y binarios mezclados  
-- [ ] C. Agrupa exactamente un propósito lógico  
-- [ ] D. Solo cambia documentación  
+- a) Ser genérico para reutilizarse
+- b) Incluir múltiples problemas para ahorrar tiempo
+- c) Enfocarse en un único problema claro (Correcta)
+- d) Omitir el contexto para ser breve
 
-5. ¿Cuál convención de mensaje sigue Conventional Commits?
-- [ ] A. `build(scope): ...`  
-- [ ] B. `scope:build ...`  
-- [ ] C. `[build scope]`  
-- [ ] D. `build=>scope`  
+### Pregunta 3: ¿Cuál **comando** crea un repositorio local y conecta el remoto?
 
-6. Un PR en estado “Draft” sirve para:
-- [ ] A. Bloquear revisiones  
-- [ ] B. Ejecutar CI y permitir feedback temprano  
-- [ ] C. Fusionarse automáticamente  
-- [ ] D. Crear etiquetas de forma automática  
+- a) `git init && git remote add origin <url>` (Correcta)
+- b) `git start <url>`
+- c) `git repo create <url>`
+- d) `git connect origin <url>`
 
-7. ¿Qué NO debe hacerse en un commit?
-- [ ] A. Incluir pruebas  
-- [ ] B. Cambiar 1 feature a la vez  
-- [ ] C. Mezclar refactors y hotfix críticos sin separar  
-- [ ] D. Referenciar un issue  
+### Pregunta 4: Un commit “atómico” significa:
 
-8. ¿Cuándo usar etiquetas?
-- [ ] A. Sólo al final del sprint  
-- [ ] B. Cuando se necesita filtrar, priorizar y agrupar issues  
-- [ ] C. Nunca en proyectos pequeños  
-- [ ] D. Solo en PRs, no issues  
+- a) Muy grande con muchos cambios
+- b) Incluye código y binarios mezclados
+- c) Agrupa exactamente un propósito lógico (Correcta)
+- d) Solo cambia documentación
 
-9. Ventaja de usar ramas feature/*:
-- [ ] A. Reducen la historia de Git  
-- [ ] B. Evitan que main cambie  
-- [ ] C. Aíslan cambios y facilitan PRs pequeños  
-- [ ] D. Obligan a reescribir main  
+### Pregunta 5: ¿Cuál convención de mensaje sigue Conventional Commits?
 
-10. ¿Cuál es mejor práctica antes de abrir un PR?
-- [ ] A. Forzar push sin revisar  
-- [ ] B. Asegurar que la rama esté actualizada con main  
-- [ ] C. Reescribir el historial público sin coordinación  
-- [ ] D. Ignorar conflictos menores  
+- a) `build(scope): ...` (Correcta)
+- b) `scope:build ...`
+- c) `[build scope]`
+- d) `build=>scope`
 
-11. ¿Cuál documento orienta primero a nuevos colaboradores?
-- [ ] A. LICENSE  
-- [ ] B. README  
-- [ ] C. CHANGELOG  
-- [ ] D. .gitignore  
+### Pregunta 6: Un PR en estado “Draft” sirve para:
 
-12. ¿Para qué sirve un ISSUE_TEMPLATE?
-- [ ] A. Restringe crear issues  
-- [ ] B. Estandariza la información mínima para triage  
-- [ ] C. Impide cerrar issues rápido  
-- [ ] D. Obliga a usar forks  
+- a) Bloquear revisiones
+- b) Ejecutar CI y permitir feedback temprano (Correcta)
+- c) Fusionarse automáticamente
+- d) Crear etiquetas de forma automática
 
-13. ¿Qué palabra clave cierra un issue al fusionar PR?
-- [ ] A. Related  
-- [ ] B. Fixes  
-- [ ] C. Refs  
-- [ ] D. Mirrors  
+### Pregunta 7: ¿Qué NO debe hacerse en un commit?
 
-14. ¿Qué se revisa en un PR básico?
-- [ ] A. Estrategia financiera  
-- [ ] B. Cambios de infraestructura ajenos  
-- [ ] C. Coherencia, alcance, evidencia de pruebas  
-- [ ] D. Velocidad de CPU  
+- a) Incluir pruebas
+- b) Cambiar 1 feature a la vez
+- c) Mezclar refactors y hotfix críticos sin separar (Correcta)
+- d) Referenciar un issue
 
-15. ¿Qué evita un commit enorme?
-- [ ] A. Revisiones ágiles  
-- [ ] B. Reversión controlada  
-- [ ] C. Comprensión de diffs  
-- [ ] D. Todas las anteriores  
+### Pregunta 8: ¿Cuándo usar etiquetas?
 
-16. ¿Qué NO va en un buen mensaje de commit?
-- [ ] A. Contexto breve  
-- [ ] B. Qué y por qué  
-- [ ] C. Referencia al issue  
-- [ ] D. Argumentos personales irrelevantes  
+- a) Sólo al final del sprint
+- b) Cuando se necesita filtrar, priorizar y agrupar issues (Correcta)
+- c) Nunca en proyectos pequeños
+- d) Solo en PRs, no issues
 
-17. ¿Qué archivo debe existir para licencias abiertas?
-- [ ] A. LICENSE  
-- [ ] B. CONTRIBUTE  
-- [ ] C. PATTERNS  
-- [ ] D. AUTHORS.yml  
+### Pregunta 9: Ventaja de usar ramas feature/\*:
 
-18. ¿Cuándo conviene squash merge?
-- [ ] A. Cuando se desean múltiples commits sueltos  
-- [ ] B. Para condensar commits de trabajo ruidosos  
-- [ ] C. Para eliminar el historial de main  
-- [ ] D. Cuando se quiere duplicar el diff  
+- a) Reducen la historia de Git
+- b) Evitan que main cambie
+- c) Aíslan cambios y facilitan PRs pequeños (Correcta)
+- d) Obligan a reescribir main
 
-19. ¿Qué acción produce más trazabilidad?
-- [ ] A. Commits sin descripción  
-- [ ] B. Referenciar issues y usar keywords en PR  
-- [ ] C. Revertir cada cambio siempre  
-- [ ] D. Fusionar directo en main sin PR  
+### Pregunta 10: ¿Cuál es mejor práctica antes de abrir un PR?
 
-20. Beneficio de un PR pequeño:
-- [ ] A. Aumenta riesgo de bugs  
-- [ ] B. Acelera revisión y reduce conflictos  
-- [ ] C. Dificulta revertir  
-- [ ] D. Rompe la integración continua  
+- a) Forzar push sin revisar
+- b) Asegurar que la rama esté actualizada con main (Correcta)
+- c) Reescribir el historial público sin coordinación
+- d) Ignorar conflictos menores
+
+### Pregunta 11: ¿Cuál documento orienta primero a nuevos colaboradores?
+
+- a) LICENSE
+- b) README (Correcta)
+- c) CHANGELOG
+- d) .gitignore
+
+### Pregunta 12: ¿Para qué sirve un ISSUE_TEMPLATE?
+
+- a) Restringe crear issues
+- b) Estandariza la información mínima para triage (Correcta)
+- c) Impide cerrar issues rápido
+- d) Obliga a usar forks
+
+### Pregunta 13: ¿Qué palabra clave cierra un issue al fusionar PR?
+
+- a) Related
+- b) Fixes (Correcta)
+- c) Refs
+- d) Mirrors
+
+### Pregunta 14: ¿Qué se revisa en un PR básico?
+
+- a) Estrategia financiera
+- b) Cambios de infraestructura ajenos
+- c) Coherencia, alcance, evidencia de pruebas (Correcta)
+- d) Velocidad de CPU
+
+### Pregunta 15: ¿Qué evita un commit enorme?
+
+- a) Revisiones ágiles
+- b) Reversión controlada
+- c) Comprensión de diffs
+- d) Todas las anteriores (Correcta)
+
+### Pregunta 16: ¿Qué NO va en un buen mensaje de commit?
+
+- a) Contexto breve
+- b) Qué y por qué
+- c) Referencia al issue
+- d) Argumentos personales irrelevantes (Correcta)
+
+### Pregunta 17: ¿Qué archivo debe existir para licencias abiertas?
+
+- a) LICENSE (Correcta)
+- b) CONTRIBUTE
+- c) PATTERNS
+- d) AUTHORS.yml
+
+### Pregunta 18: ¿Cuándo conviene squash merge?
+
+- a) Cuando se desean múltiples commits sueltos
+- b) Para condensar commits de trabajo ruidosos (Correcta)
+- c) Para eliminar el historial de main
+- d) Cuando se quiere duplicar el diff
+
+### Pregunta 19: ¿Qué acción produce más trazabilidad?
+
+- a) Commits sin descripción
+- b) Referenciar issues y usar keywords en PR (Correcta)
+- c) Revertir cada cambio siempre
+- d) Fusionar directo en main sin PR
+
+### Pregunta 20: Beneficio de un PR pequeño:
+
+- a) Aumenta riesgo de bugs
+- b) Acelera revisión y reduce conflictos (Correcta)
+- c) Dificulta revertir
+- d) Rompe la integración continua
 
 ## Parte II – Práctica (respuesta abierta)
 
-21. Escribe un título y cuerpo de issue para reportar un error en la función de interpolación (incluye criterios de aceptación).  
-22. Proporciona un ejemplo de mensaje de commit siguiendo Conventional Commits que arregle un bug referenciando el issue 45.  
-23. Describe en 4–5 pasos cómo crear un PR que cierre el issue #72 usando “Fixes”.  
+1. Escribe un título y cuerpo de issue para reportar un error en la función de interpolación (incluye criterios de aceptación).
+2. Proporciona un ejemplo de mensaje de commit siguiendo Conventional Commits que arregle un bug referenciando el issue 45.
+3. Describe en 4–5 pasos cómo crear un PR que cierre el issue #72 usando “Fixes”.
 
 ## Parte III – (Opcional) Rúbrica de corrección práctica
 

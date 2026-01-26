@@ -2,128 +2,148 @@
 
 ## Selección múltiple
 
-1. Objetivo de un release semántico:
-- [ ] A. Nombrar arbitrariamente  
-- [ ] B. Comunicar cambios (fix, feat, breaking) predecibles  
-- [ ] C. Reducir issues  
-- [ ] D. Forzar tags ocultos  
+### Pregunta 1: Objetivo de un release semántico:
 
-2. `v0.1.0` implica:
-- [ ] A. Versión estable mayor  
-- [ ] B. Iteración temprana (pre 1.0)  
-- [ ] C. Parche crítico de seguridad  
-- [ ] D. Retroceso de versión  
+- a) Nombrar arbitrariamente
+- b) Comunicar cambios (fix, feat, breaking) predecibles (Correcta)
+- c) Reducir issues
+- d) Forzar tags ocultos
 
-3. Archivo para notas automáticas:
-- [ ] A. `.github/release.yml`  
-- [ ] B. `release-config.json`  
-- [ ] C. `release.txt`  
-- [ ] D. `notes.yml`  
+### Pregunta 2: `v0.1.0` implica:
 
-4. GitHub Actions se activan con:
-- [ ] A. Hooks locales  
-- [ ] B. Eventos (push, pull_request, workflow_dispatch)  
-- [ ] C. Tags manuales directos  
-- [ ] D. Ramas protegidas exclusivamente  
+- a) Versión estable mayor
+- b) Iteración temprana (pre 1.0) (Correcta)
+- c) Parche crítico de seguridad
+- d) Retroceso de versión
 
-5. Buen nombre de workflow:
-- [ ] A. Build  
-- [ ] B. “CI – Build & Test” descriptivo  
-- [ ] C. `wf1`  
-- [ ] D. `test` genérico  
+### Pregunta 3: Archivo para notas automáticas:
 
-6. Secreto almacenado en:
-- [ ] A. README  
-- [ ] B. GitHub Secrets  
-- [ ] C. Código fuente  
-- [ ] D. Issue privado  
+- a) `.github/release.yml` (Correcta)
+- b) `release-config.json`
+- c) `release.txt`
+- d) `notes.yml`
 
-7. Minimizar tiempo de pipeline:
-- [ ] A. Cache dependencias  
-- [ ] B. Instalar todo cada vez  
-- [ ] C. Evitar matrices  
-- [ ] D. Repetir steps innecesariamente  
+### Pregunta 4: GitHub Actions se activan con:
 
-8. “Least privilege” en token:
-- [ ] A. Acceso mínimo necesario  
-- [ ] B. Acceso total siempre  
-- [ ] C. Solo lectura impide releases  
-- [ ] D. Desactiva auditorías  
+- a) Hooks locales
+- b) Eventos (push, pull_request, workflow_dispatch) (Correcta)
+- c) Tags manuales directos
+- d) Ramas protegidas exclusivamente
 
-9. Un release “draft”:
-- [ ] A. Ya visible para todos  
-- [ ] B. Permite revisión antes de publicar  
-- [ ] C. Borra tags  
-- [ ] D. Forza CI  
+### Pregunta 5: Buen nombre de workflow:
 
-10. Al cerrar milestone antes de release:
-- [ ] A. No relevante  
-- [ ] B. Garantiza que el alcance planificado terminó  
-- [ ] C. Rompe pipeline  
-- [ ] D. Elimina issues  
+- a) Build
+- b) “CI – Build & Test” descriptivo (Correcta)
+- c) `wf1`
+- d) `test` genérico
 
-11. Action reusable:
-- [ ] A. Es un composite para steps comunes  
-- [ ] B. Reemplaza el repo  
-- [ ] C. Deshabilita YAML  
-- [ ] D. No admite inputs  
+### Pregunta 6: Secreto almacenado en:
 
-12. Matriz de jobs:
-- [ ] A. Ejecuta combinaciones (ej. versiones de Node)  
-- [ ] B. Duplica logs sin propósito  
-- [ ] C. Bloquea cache  
-- [ ] D. Requiere self-hosted obligado  
+- a) README
+- b) GitHub Secrets (Correcta)
+- c) Código fuente
+- d) Issue privado
 
-13. Paso “checkout” hace:
-- [ ] A. Generar release  
-- [ ] B. Clonar el repo en runner  
-- [ ] C. Instalar dependencias automáticamente  
-- [ ] D. Subir artefactos  
+### Pregunta 7: Minimizar tiempo de pipeline:
 
-14. Artefactos:
-- [ ] A. Sólo logs  
-- [ ] B. Ficheros empaquetados para descarga posterior  
-- [ ] C. Siempre secretos  
-- [ ] D. Variables de env  
+- a) Cache dependencias (Correcta)
+- b) Instalar todo cada vez
+- c) Evitar matrices
+- d) Repetir steps innecesariamente
 
-15. Tag ligero vs anotado:
-- [ ] A. Igual  
-- [ ] B. Anotado incluye mensaje y metadata  
-- [ ] C. Ligero tiene firma GPG  
-- [ ] D. Ligero genera release automático  
+### Pregunta 8: “Least privilege” en token:
 
-16. PR fusionado sin tag:
-- [ ] A. No dispara release basado en tag  
-- [ ] B. Crea release automáticamente  
-- [ ] C. Rompe milestones  
-- [ ] D. Borra acciones previas  
+- a) Acceso mínimo necesario (Correcta)
+- b) Acceso total siempre
+- c) Solo lectura impide releases
+- d) Desactiva auditorías
 
-17. `on: pull_request` ejecuta en:
-- [ ] A. Creación y actualizaciones del PR  
-- [ ] B. Sólo merges  
-- [ ] C. Sólo tags  
-- [ ] D. Rebase local  
+### Pregunta 9: Un release “draft”:
 
-18. Recomendación al fallar workflow:
-- [ ] A. Ignorarlo si es menor  
-- [ ] B. Corregir y reejecutar con `gh workflow run` o re-push  
-- [ ] C. Forzar merge  
-- [ ] D. Borrar historial  
+- a) Ya visible para todos
+- b) Permite revisión antes de publicar (Correcta)
+- c) Borra tags
+- d) Forza CI
 
-19. Archivar notas release:
-- [ ] A. En issues  
-- [ ] B. En tag annotation y CHANGELOG  
-- [ ] C. En README siempre  
-- [ ] D. No se guarda  
+### Pregunta 10: Al cerrar milestone antes de release:
 
-20. Riesgo de credenciales en repositorio:
-- [ ] A. Aumenta seguridad  
-- [ ] B. Exposición y revocación necesaria  
-- [ ] C. Mejora CI  
-- [ ] D. Obliga a más tests  
+- a) No relevante
+- b) Garantiza que el alcance planificado terminó (Correcta)
+- c) Rompe pipeline
+- d) Elimina issues
+
+### Pregunta 11: Action reusable:
+
+- a) Es un composite para steps comunes (Correcta)
+- b) Reemplaza el repo
+- c) Deshabilita YAML
+- d) No admite inputs
+
+### Pregunta 12: Matriz de jobs:
+
+- a) Ejecuta combinaciones (ej. versiones de Node) (Correcta)
+- b) Duplica logs sin propósito
+- c) Bloquea cache
+- d) Requiere self-hosted obligado
+
+### Pregunta 13: Paso “checkout” hace:
+
+- a) Generar release
+- b) Clonar el repo en runner (Correcta)
+- c) Instalar dependencias automáticamente
+- d) Subir artefactos
+
+### Pregunta 14: Artefactos:
+
+- a) Sólo logs
+- b) Ficheros empaquetados para descarga posterior (Correcta)
+- c) Siempre secretos
+- d) Variables de env
+
+### Pregunta 15: Tag ligero vs anotado:
+
+- a) Igual
+- b) Anotado incluye mensaje y metadata (Correcta)
+- c) Ligero tiene firma GPG
+- d) Ligero genera release automático
+
+### Pregunta 16: PR fusionado sin tag:
+
+- a) No dispara release basado en tag (Correcta)
+- b) Crea release automáticamente
+- c) Rompe milestones
+- d) Borra acciones previas
+
+### Pregunta 17: `on: pull_request` ejecuta en:
+
+- a) Creación y actualizaciones del PR (Correcta)
+- b) Sólo merges
+- c) Sólo tags
+- d) Rebase local
+
+### Pregunta 18: Recomendación al fallar workflow:
+
+- a) Ignorarlo si es menor
+- b) Corregir y reejecutar con `gh workflow run` o re-push (Correcta)
+- c) Forzar merge
+- d) Borrar historial
+
+### Pregunta 19: Archivar notas release:
+
+- a) En issues
+- b) En tag annotation y CHANGELOG (Correcta)
+- c) En README siempre
+- d) No se guarda
+
+### Pregunta 20: Riesgo de credenciales en repositorio:
+
+- a) Aumenta seguridad
+- b) Exposición y revocación necesaria (Correcta)
+- c) Mejora CI
+- d) Obliga a más tests
 
 ## Práctica
 
-21. Pasos para generar un release candidato a partir de milestone cerrado.  
-22. YAML mínimo para workflow que instale dependencias y ejecute pruebas.  
-23. Explica cuándo crearías un hotfix `v0.1.1` tras `v0.1.0`.  
+1. Pasos para generar un release candidato a partir de milestone cerrado.
+2. YAML mínimo para workflow que instale dependencias y ejecute pruebas.
+3. Explica cuándo crearías un hotfix `v0.1.1` tras `v0.1.0`.

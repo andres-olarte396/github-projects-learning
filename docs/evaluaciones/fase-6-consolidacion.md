@@ -2,128 +2,148 @@
 
 ## Selección múltiple
 
-1. Discussions objetivo:
-- [ ] A. Reemplazar issues siempre  
-- [ ] B. Espacio de exploración y colaboración previa a issue  
-- [ ] C. Tagging automático  
-- [ ] D. Desplegar versiones  
+### Pregunta 1: Discussions objetivo:
 
-2. Convertir Discussion a issue cuando:
-- [ ] A. Idea madura con criterios claros  
-- [ ] B. Está vacía  
-- [ ] C. No hay consenso mínimo  
-- [ ] D. Es spam  
+- a) Reemplazar issues siempre
+- b) Espacio de exploración y colaboración previa a issue (Correcta)
+- c) Tagging automático
+- d) Desplegar versiones
 
-3. Retrospectiva busca:
-- [ ] A. Culpar individuos  
-- [ ] B. Mejorar proceso y flujo  
-- [ ] C. Aumentar WIP infinita  
-- [ ] D. Evitar métricas  
+### Pregunta 2: Convertir Discussion a issue cuando:
 
-4. Métrica “carryover”:
-- [ ] A. Issues arrastrados a siguiente ciclo  
-- [ ] B. Tiempo hasta primer commit  
-- [ ] C. Tasa de forks  
-- [ ] D. Tamaño de PR  
+- a) Idea madura con criterios claros (Correcta)
+- b) Está vacía
+- c) No hay consenso mínimo
+- d) Es spam
 
-5. Sprint backlog estable tras:
-- [ ] A. Primer día (freeze razonable)  
-- [ ] B. Cada commit  
-- [ ] C. Retro final  
-- [ ] D. Release  
+### Pregunta 3: Retrospectiva busca:
 
-6. Objetivo SMART:
-- [ ] A. Vago y motivador  
-- [ ] B. Específico, medible, alcanzable, relevante, temporal  
-- [ ] C. Solo medible  
-- [ ] D. Solo temporal  
+- a) Culpar individuos
+- b) Mejorar proceso y flujo (Correcta)
+- c) Aumentar WIP infinita
+- d) Evitar métricas
 
-7. Añadir demasiados objetivos:
-- [ ] A. Enfoque  
-- [ ] B. Dilución y falta de prioridad  
-- [ ] C. Mejora velocidad  
-- [ ] D. Evita dependencias  
+### Pregunta 4: Métrica “carryover”:
 
-8. Indicador de exceso WIP:
-- [ ] A. Muchas tareas In Progress bloqueadas  
-- [ ] B. Done lleno  
-- [ ] C. Backlog vacío  
-- [ ] D. PRs pequeños y rápidos  
+- a) Issues arrastrados a siguiente ciclo (Correcta)
+- b) Tiempo hasta primer commit
+- c) Tasa de forks
+- d) Tamaño de PR
 
-9. Cadencia de daily:
-- [ ] A. Cada 2 semanas  
-- [ ] B. Breve (<=15 min) orientada a desbloquear  
-- [ ] C. 1 hora de detalles técnicos profundos  
-- [ ] D. Sólo asíncrona sin revisión  
+### Pregunta 5: Sprint backlog estable tras:
 
-10. Acción tras detectar cuello de botella en revisión:
-- [ ] A. Ignorar  
-- [ ] B. Redistribuir y reducir tamaño de PRs  
-- [ ] C. Aumentar WIP  
-- [ ] D. Suspender merges  
+- a) Primer día (freeze razonable) (Correcta)
+- b) Cada commit
+- c) Retro final
+- d) Release
 
-11. “Definition of Done” inconsistente causa:
-- [ ] A. Uniformidad  
-- [ ] B. Variabilidad de calidad  
-- [ ] C. Cierre homogéneo  
-- [ ] D. Más foco  
+### Pregunta 6: Objetivo SMART:
 
-12. “Impact mapping” ayuda a:
-- [ ] A. Eludir objetivos  
-- [ ] B. Alinear entregables con valor  
-- [ ] C. Reducir visibilidad  
-- [ ] D. Eliminar métricas  
+- a) Vago y motivador
+- b) Específico, medible, alcanzable, relevante, temporal (Correcta)
+- c) Solo medible
+- d) Solo temporal
 
-13. “Root cause analysis” se aplica:
-- [ ] A. Sólo en éxitos  
-- [ ] B. En fallos recurrentes para prevenir  
-- [ ] C. En cualquier commit  
-- [ ] D. Para nombrar ramas  
+### Pregunta 7: Añadir demasiados objetivos:
 
-14. Buen anti-pattern retro:
-- [ ] A. Datos + insights + acciones  
-- [ ] B. Lista de culpas sin responsables de acción  
-- [ ] C. Acciones concretas con due date  
-- [ ] D. Métricas comparadas  
+- a) Enfoque
+- b) Dilución y falta de prioridad (Correcta)
+- c) Mejora velocidad
+- d) Evita dependencias
 
-15. Acción mínima para experimentos:
-- [ ] A. No medir impacto  
-- [ ] B. Hipótesis + métrica objetivo  
-- [ ] C. Cambiar todo sin control  
-- [ ] D. Saltar feedback  
+### Pregunta 8: Indicador de exceso WIP:
 
-16. Participación desigual:
-- [ ] A. Mejor  
-- [ ] B. Facilitar turnos y anonimizar si es sensible  
-- [ ] C. Ignorar voces silenciosas  
-- [ ] D. Aumentar jerarquía  
+- a) Muchas tareas In Progress bloqueadas (Correcta)
+- b) Done lleno
+- c) Backlog vacío
+- d) PRs pequeños y rápidos
 
-17. Tabla de acciones retro debe incluir:
-- [ ] A. Responsable y fecha límite  
-- [ ] B. Solo idea  
-- [ ] C. Solo emojis  
-- [ ] D. Autor del commit más largo  
+### Pregunta 9: Cadencia de daily:
 
-18. Efecto “hero developer”:
-- [ ] A. Riesgo de dependencia y cuello de botella  
-- [ ] B. Reducción de bus factor  
-- [ ] C. Documentación robusta  
-- [ ] D. Balance de carga perfecto  
+- a) Cada 2 semanas
+- b) Breve (<=15 min) orientada a desbloquear (Correcta)
+- c) 1 hora de detalles técnicos profundos
+- d) Sólo asíncrona sin revisión
 
-19. Medir tiempo de ciclo:
-- [ ] A. Issue creado → Done  
-- [ ] B. Commit → Tag  
-- [ ] C. Tag → Deploy  
-- [ ] D. PR → Draft  
+### Pregunta 10: Acción tras detectar cuello de botella en revisión:
 
-20. Acción tras detectar baja tasa de cierre:
-- [ ] A. Aumentar WIP  
-- [ ] B. Mejor grooming y recorte de alcance  
-- [ ] C. Ignorar métricas  
-- [ ] D. Crear más issues genéricos  
+- a) Ignorar
+- b) Redistribuir y reducir tamaño de PRs (Correcta)
+- c) Aumentar WIP
+- d) Suspender merges
+
+### Pregunta 11: “Definition of Done” inconsistente causa:
+
+- a) Uniformidad
+- b) Variabilidad de calidad (Correcta)
+- c) Cierre homogéneo
+- d) Más foco
+
+### Pregunta 12: “Impact mapping” ayuda a:
+
+- a) Eludir objetivos
+- b) Alinear entregables con valor (Correcta)
+- c) Reducir visibilidad
+- d) Eliminar métricas
+
+### Pregunta 13: “Root cause analysis” se aplica:
+
+- a) Sólo en éxitos
+- b) En fallos recurrentes para prevenir (Correcta)
+- c) En cualquier commit
+- d) Para nombrar ramas
+
+### Pregunta 14: Buen anti-pattern retro:
+
+- a) Datos + insights + acciones
+- b) Lista de culpas sin responsables de acción (Correcta)
+- c) Acciones concretas con due date
+- d) Métricas comparadas
+
+### Pregunta 15: Acción mínima para experimentos:
+
+- a) No medir impacto
+- b) Hipótesis + métrica objetivo (Correcta)
+- c) Cambiar todo sin control
+- d) Saltar feedback
+
+### Pregunta 16: Participación desigual:
+
+- a) Mejor
+- b) Facilitar turnos y anonimizar si es sensible (Correcta)
+- c) Ignorar voces silenciosas
+- d) Aumentar jerarquía
+
+### Pregunta 17: Tabla de acciones retro debe incluir:
+
+- a) Responsable y fecha límite (Correcta)
+- b) Solo idea
+- c) Solo emojis
+- d) Autor del commit más largo
+
+### Pregunta 18: Efecto “hero developer”:
+
+- a) Riesgo de dependencia y cuello de botella (Correcta)
+- b) Reducción de bus factor
+- c) Documentación robusta
+- d) Balance de carga perfecto
+
+### Pregunta 19: Medir tiempo de ciclo:
+
+- a) Issue creado → Done (Correcta)
+- b) Commit → Tag
+- c) Tag → Deploy
+- d) PR → Draft
+
+### Pregunta 20: Acción tras detectar baja tasa de cierre:
+
+- a) Aumentar WIP
+- b) Mejor grooming y recorte de alcance (Correcta)
+- c) Ignorar métricas
+- d) Crear más issues genéricos
 
 ## Práctica
 
-21. Describe cómo convertir una discusión en issue y criterios de aceptación.  
-22. Explica 3 métricas clave a revisar en la retro.  
-23. Propón 2 acciones de mejora basadas en un sprint con alto carryover.  
+1. Describe cómo convertir una discusión en issue y criterios de aceptación.
+2. Explica 3 métricas clave a revisar en la retro.
+3. Propón 2 acciones de mejora basadas en un sprint con alto carryover.

@@ -1,4 +1,4 @@
-# Autoevaluación Fase 1: Fundamentos de Git y GitHub
+# Autoevaluación Fase 1. Fundamentos de Git y GitHub
 
 ## Checklist de temas aprendidos y competencias adquiridas
 
