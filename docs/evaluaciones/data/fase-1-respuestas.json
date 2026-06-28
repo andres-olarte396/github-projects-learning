@@ -1,0 +1,251 @@
+{
+  "fase": 1,
+  "nombre": "Fundamentos",
+  "version": "1.0.1",
+  "fecha_generacion": "2025-09-07",
+  "archivo_evaluacion": "../fase-1-fundamentos.md",
+  "total_preguntas": 23,
+  "peso_por_defecto": 5,
+  "agrupacion_diagnostico": [
+    1,
+    3,
+    6,
+    10,
+    13
+  ],
+  "criterios_aprobacion": {
+    "porcentaje_minimo": 0.7
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/05-vinculacion-pr-issue.md#palabras-clave-de-cierre",
+        "https://docs.github.com/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue"
+      ],
+      "rubrica": "Identifica que la keyword en PR cierra el issue al fusionar."
+    },
+    {
+      "numero": 2,
+      "respuesta": "C",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/02-apertura-issue.md#formato-recomendado-para-issues",
+        "../../fase-1-fundamentos/02-apertura-issue.md#mejores-practicas"
+      ],
+      "rubrica": "Reconoce que un título debe enfocarse en un único problema."
+    },
+    {
+      "numero": 3,
+      "respuesta": "A",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/01-creacion-repositorio.md#comandos-powershell-gh",
+        "https://git-scm.com/docs/git-init"
+      ],
+      "rubrica": "Conoce comando base para iniciar y vincular remoto."
+    },
+    {
+      "numero": 4,
+      "respuesta": "C",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#mejores-practicas",
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#conventional-commits"
+      ],
+      "rubrica": "Distingue la atomicidad de un commit (un propósito lógico)."
+    },
+    {
+      "numero": 5,
+      "respuesta": "A",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#estructura-conventional-commits",
+        "https://www.conventionalcommits.org/es/v1.0.0/"
+      ],
+      "rubrica": "Reconoce formato correcto de Conventional Commits."
+    },
+    {
+      "numero": 6,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#formato-recomendado",
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#mejores-practicas"
+      ],
+      "rubrica": "Entiende uso de Draft PR para feedback temprano y CI."
+    },
+    {
+      "numero": 7,
+      "respuesta": "C",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#mejores-practicas",
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#anti-patterns"
+      ],
+      "rubrica": "Detecta mala práctica de mezclar refactor y fix crítico."
+    },
+    {
+      "numero": 8,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-2-organizacion-basica/01-definir-etiquetas.md#mejores-practicas",
+        "../../fase-2-organizacion-basica/04-aplicar-etiquetas-issues.md#mejores-practicas"
+      ],
+      "rubrica": "Comprende que etiquetas ayudan a filtrar y priorizar."
+    },
+    {
+      "numero": 9,
+      "respuesta": "C",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/02-crear-branch-feature.md#mejores-practicas",
+        "../../fase-4-flujo-desarrollo/02-crear-branch-feature.md#formato-recomendado"
+      ],
+      "rubrica": "Identifica beneficio de aislar cambios en ramas feature."
+    },
+    {
+      "numero": 10,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#formato-recomendado",
+        "../../fase-4-flujo-desarrollo/02-crear-branch-feature.md#mejores-practicas"
+      ],
+      "rubrica": "Reconoce necesidad de sincronizar rama antes de PR."
+    },
+    {
+      "numero": 11,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/01-creacion-repositorio.md#formato-recomendado",
+        "../../fase-1-fundamentos/01-creacion-repositorio.md#mejores-practicas"
+      ],
+      "rubrica": "Identifica README como punto de entrada principal."
+    },
+    {
+      "numero": 12,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/02-apertura-issue.md#plantilla-markdown",
+        "../../fase-1-fundamentos/02-apertura-issue.md#issue-forms-yaml"
+      ],
+      "rubrica": "Reconoce propósito de ISSUE_TEMPLATE para estandarizar."
+    },
+    {
+      "numero": 13,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/05-vinculacion-pr-issue.md#palabras-clave-de-cierre",
+        "https://docs.github.com/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue"
+      ],
+      "rubrica": "Identifica 'Fixes/Fixes' como keyword de cierre."
+    },
+    {
+      "numero": 14,
+      "respuesta": "C",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/05-revisar-pr.md#formato-recomendado",
+        "../../fase-4-flujo-desarrollo/05-revisar-pr.md#mejores-practicas"
+      ],
+      "rubrica": "Conoce foco de una revisión de PR (coherencia y alcance)."
+    },
+    {
+      "numero": 15,
+      "respuesta": "D",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#mejores-practicas",
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#mejores-practicas"
+      ],
+      "rubrica": "Resume beneficios de PR pequeño en revisión y riesgo."
+    },
+    {
+      "numero": 16,
+      "respuesta": "D",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#estructura-conventional-commits",
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#mejores-practicas"
+      ],
+      "rubrica": "Distingue qué no va (comentarios personales) en commit."
+    },
+    {
+      "numero": 17,
+      "respuesta": "A",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/01-creacion-repositorio.md#formato-recomendado",
+        "https://choosealicense.com/"
+      ],
+      "rubrica": "Reconoce LICENSE como archivo de licenciamiento."
+    },
+    {
+      "numero": 18,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#estrategias-de-merge",
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#mejores-practicas"
+      ],
+      "rubrica": "Identifica uso de squash para condensar commits ruidosos."
+    },
+    {
+      "numero": 19,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-1-fundamentos/05-vinculacion-pr-issue.md#ejemplos",
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#formato-recomendado"
+      ],
+      "rubrica": "Relaciona referencia de issue y keywords con trazabilidad."
+    },
+    {
+      "numero": 20,
+      "respuesta": "B",
+      "peso": 5,
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#mejores-practicas",
+        "../../fase-4-flujo-desarrollo/05-revisar-pr.md#mejores-practicas"
+      ],
+      "rubrica": "Valora PR pequeño para acelerar revisión y reducir conflictos."
+    },
+    {
+      "numero": 21,
+      "respuesta": null,
+      "tipo": "abierta",
+      "referencias": [
+        "../../fase-1-fundamentos/02-apertura-issue.md#plantilla-markdown",
+        "../../fase-1-fundamentos/02-apertura-issue.md#formato-recomendado-para-issues"
+      ],
+      "rubrica": "Evaluar: claridad título (1), criterios acept. medibles (2), contexto (1), formato (1). Máx 5."
+    },
+    {
+      "numero": 22,
+      "respuesta": null,
+      "tipo": "abierta",
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#estructura-conventional-commits",
+        "../../fase-4-flujo-desarrollo/03-hacer-commits.md#ejemplos"
+      ],
+      "rubrica": "Evaluar: tipo+scope (2), descripción clara (1), referencia issue (1), coherencia semántica (1)."
+    },
+    {
+      "numero": 23,
+      "respuesta": null,
+      "tipo": "abierta",
+      "referencias": [
+        "../../fase-4-flujo-desarrollo/04-abrir-pr-enlazar-issue.md#formato-recomendado",
+        "../../fase-1-fundamentos/05-vinculacion-pr-issue.md#palabras-clave-de-cierre"
+      ],
+      "rubrica": "Evaluar: secuencia lógica (2), uso keyword cierre (1), sincronización rama (1), claridad (1)."
+    }
+  ]
+}
